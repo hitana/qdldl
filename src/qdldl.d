@@ -1,6 +1,7 @@
 module qdldl;
 
-//#include "qdldl.h"
+nothrow @nogc extern(C):
+
 import qdldl_types;
 
 enum int QDLDL_UNKNOWN = -1;
